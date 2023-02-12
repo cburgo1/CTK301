@@ -1,0 +1,25 @@
+.header {
+    background-color:black;
+    color:purple;
+}
+
+#navigation {
+    color:blue;
+    background-color: black;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.spanstyle {
+    color: aqua;
+}
