@@ -1,0 +1,45 @@
+.fontstyle {
+    font-family: sans-serif;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+.justifyalign {
+    text-align: justify;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+img {
+    border: 20px solid black;
+    background-color: yellow;
+    padding: 20px;
+}
+
+body {
+    background-image: url(backgroundimage.PNG);
+}
