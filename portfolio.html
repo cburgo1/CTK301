@@ -4,13 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
 	<link href="portfolio.css" rel="stylesheet" type="text/css">
-    <!--fancy box start-->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
-  
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
-    <!--fancy box end-->
 </head>
 <body>
 	<div id="wrapper">
@@ -27,48 +20,34 @@
             </ul>
         </nav>
 
-
-
         <main>
-            <!--fancy box start-->
-            <div id="wrapper">
-            
-                <a href="11.png" data-fancybox="gallery" data-caption="11">
-                  <img src="11.png">
-                </a>
-                <a href="31.png" data-fancybox="gallery" data-caption="31">
-                  <img src="31.png">
-                </a>
-                <a href="21.png" data-fancybox="gallery" data-caption="21">
-                  <img src="21.png">
-                </a>
-                <div id="myCarousel" class="f-carousel">
-                  <div class="f-carousel__slide"><img src="11.png"></div>
-                  <div class="f-carousel__slide"><img src="31.png"></div>
-                  <div class="f-carousel__slide"><img src="21.png"></div>
-                </div>
-              </div>
-            
-              <script>   
-                Fancybox.bind("[data-fancybox]", {
-            
-                });
-              </script>
-            
-              <script>
-              const container = document.getElementById("myCarousel");
-              const options = { infinite: false };
-              new Carousel(container, options);
-              </script>
-            <!--fancy box end-->
-
             <!--
+            <div id="my_nanogallery2" data-nanogallery2 = '{
+                    "thumbnailHeight":  150,
+                    "thumbnailWidth":   150,
+                    "galleryMosaic" :   [
+                    { "c": 1, "r": 1, "w": 2, "h": 2 },
+                    { "c": 3, "r": 1, "w": 1, "h": 1 },
+                    { "c": 3, "r": 2, "w": 1, "h": 1 },
+                    { "c": 1, "r": 3, "w": 1, "h": 1 },
+                    { "c": 3, "r": 3, "w": 2, "h": 1 }
+                ]
+                    "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/"
+                }'>
+        
+                <a href="11.png" data-ngthumb="11.png">Title Image 1</a>
+                <a href="31.png" data-ngthumb="31.png">Title Image 2</a>
+                <a href="21.png" data-ngthumb="21.png">Title Image 3</a>
+            
+        </div>
+        -->
+
             <a href="img11.html"><img class="row1" src="11.png" alt="portfoliopic1"></a>
             <a href="img31.html"><img class="row1" src="31.png" alt="portfoliopic2"></a>
             <a href="img21.html"><img class="row1" src="21.png" alt="portfoliopic4"></a>
-            -->
         </main>
 
 	</div>
+
 </body>
 </html>

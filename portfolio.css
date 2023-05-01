@@ -131,25 +131,5 @@ padding: 24px;
   width: 50%;
 }
 
-/* fancy box addition */
-
-#myCarousel {
-  margin-bottom: 24px;
-  width: 400px;
-  
-}
-
-#myCarousel img{
-  width: 100%;
-}
-
-#myCarousel .f-carousel__slide {
-  text-align: center;
-  padding: 0;
-  background: #eee;
-}
-
-/* end of fancy box addition */
-
 
 
